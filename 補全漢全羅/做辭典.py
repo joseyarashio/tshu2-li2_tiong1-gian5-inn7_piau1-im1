@@ -91,6 +91,14 @@ if __name__ == '__main__':
 		檔案加入辭典(f, 辭典)
 	with open(斷詞語言語料, 'rt') as f:
 		檔案加入辭典(f, 辭典)
+	with open('05.典藏校對有例句.txt', 'rt') as f:
+		檔案加入辭典(f, 辭典)
+	with open('05.華臺校對有例句.txt', 'rt') as f:
+		檔案加入辭典(f, 辭典)	
+	with open('附錄句一對一斷詞.txt', 'rt') as f:
+		檔案加入辭典(f, 辭典)	
+	with open('對齊平行閩南語資料', 'rt') as f:
+		檔案加入辭典(f, 辭典)	
 	with gzip.open(斷詞典, 'wb') as f:
 		pickle.dump(辭典, f,
 				protocol=pickle.HIGHEST_PROTOCOL)
