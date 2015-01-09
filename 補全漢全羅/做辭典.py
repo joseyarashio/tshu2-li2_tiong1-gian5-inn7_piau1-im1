@@ -97,6 +97,8 @@ if __name__ == '__main__':
 		檔案加入辭典(f, 辭典)	
 	with open('附錄句一對一斷詞.txt', 'rt') as f:
 		檔案加入辭典(f, 辭典)	
+	with open('台華詞典一對一.txt', 'rt') as f:
+		檔案加入辭典(f, 辭典)	
 	with open('對齊平行閩南語資料', 'rt') as f:
 		檔案加入辭典(f, 辭典)	
 	with gzip.open(斷詞典, 'wb') as f:
