@@ -1,3 +1,4 @@
+ # This Python file uses the following encoding: utf-8
 import gzip
 from 臺灣言語工具.解析整理.拆文分析器 import 拆文分析器
 from 臺灣言語工具.解析整理.字物件篩仔 import 字物件篩仔
